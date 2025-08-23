@@ -3,7 +3,7 @@ import inspect
 import logging
 import typing as tp
 
-from src.api.exceptions import BadRequest, BadHandlerSignature, NotIdentified
+from src.nomadapi.exceptions import BadRequest, BadHandlerSignature, NotIdentified
 from .request import Request
 from .response import AbstractResponse, StrResponse
 

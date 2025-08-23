@@ -6,20 +6,19 @@ from functools import wraps
 from time import sleep
 
 import RNS
-import LXMF
 import schedule
 from jinja2 import FileSystemLoader, Environment
 
-from src.api.context import init_context
-from src.api.exceptions import DoubleHandlerRegistration
-from src.api.handlers.expetion_handler import (
+from config import STORAGE_PATH
+from src.nomadapi.context import init_context
+from src.nomadapi.exceptions import DoubleHandlerRegistration
+from src.nomadapi.handlers.exception_handler import (
     handle_exception_signature,
     base_handler,
     ExceptionHandler,
 )
-from src.api.handlers.handler import Handler, handle_func_signature
-from src.api.store import AbstractStore, JsonFileStore
-from src.config import CONFIG
+from src.nomadapi.handlers.handler import Handler, handle_func_signature
+from src.nomadapi.store import AbstractStore, JsonFileStore
 
 
 @dataclass
@@ -27,7 +26,7 @@ class Config:
     templates_dir: str = field(default="templates")
     disable_templates: bool = field(default=False)
     store: AbstractStore = field(
-        default=JsonFileStore(os.path.join(CONFIG.STORAGE_PATH, "api_user_data.json"))
+        default=JsonFileStore(os.path.join(STORAGE_PATH, "api_user_data.json"))
     )
 
     enable_propagation_node: bool = field(default=False)
