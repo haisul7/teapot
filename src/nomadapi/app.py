@@ -144,7 +144,7 @@ class NomadAPI:
 def create_rns_dest(
     rns_configdir: str, identitypath: str
 ) -> tp.Tuple[RNS.Destination, RNS.Identity]:
-    reticulum = RNS.Reticulum(rns_configdir)
+    RNS.Reticulum(rns_configdir)
     if os.path.exists(identitypath):
         identity = RNS.Identity.from_file(identitypath)
     else:
