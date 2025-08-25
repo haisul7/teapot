@@ -15,6 +15,9 @@ app = NomadAPI(
 def index(r: Request):
     return render_template('index.mu', dict())
 
+@app.request('/page/links.mu')
+def links(r: Request):
+    return render_template('links.mu', dict())
 
 if __name__ == '__main__':
     dst, identity = create_rns_dest(RNS_CONFIGDIR, NODE_IDENTITY_PATH)
