@@ -14,14 +14,14 @@
 
 >> Templates
 
-
-
 Message board: https://github.com/cotteux/MicronCMS
 
 Authentication and user management: https://codeberg.org/etux/Node_App_Template
 
 LXMF distribution groups: https://github.com/SebastianObi/LXMF-Tools
 
+
+>> Contact
 
 Please contact me if you know more open-source Reticulum nodes. Let us learn from each other and build the ecosystem together.
 
