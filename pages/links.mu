@@ -9,8 +9,11 @@
 
 `Ffff`B222`[Amber Pages`b407b32b576d55b31c73380518537ac0:/page/amberpages.mu]`b`f: https://codeberg.org/AutumnSpark1226/AmberPages
 
-`Ffff`B222`[nomad forum`428118bf70e715a89331ea928b250c05:/page/index.mu]`b`f: https://github.com/AutumnSpark1226/nomadForum
+`Ffff`B222`[Nomad forum`428118bf70e715a89331ea928b250c05:/page/index.mu]`b`f: https://github.com/AutumnSpark1226/nomadForum
 
+`Ffff`B222`[Batumi chatroom`585f25214d432629c509e176ce7d386f:/page/index.mu]`b`f: https://github.com/gralexey/lxmf-quick-chat
+
+`Ffff`B222`[Meteo bot`lxmf@0d0c8232b32f590cfaffa88ea9603523]`b`f: https://github.com/fr33n0w/meteobot
 
 >> Templates
 
