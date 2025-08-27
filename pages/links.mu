@@ -15,6 +15,7 @@
 
 `Ffff`B222`[Meteo bot`lxmf@0d0c8232b32f590cfaffa88ea9603523]`b`f: https://github.com/fr33n0w/meteobot
 
+
 >> Templates
 
 Message board: https://github.com/cotteux/MicronCMS
