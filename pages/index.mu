@@ -15,7 +15,7 @@
 
 `*418`*
 
-NEW: `Ffff`B222`[ HN browser `:/page/web.mu`url=https://news.ycombinator.com`]`b`f
+NEW: `Ffff`B222`[ HN browser `:/page/web.mu\`url=https://news.ycombinator.com`]`b`f
 
 `Ffff`B222`[ links `:/page/links.mu`]`b`f
 
