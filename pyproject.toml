@@ -4,8 +4,17 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "html2mu",
     "jinja2>=3.1.6",
     "lxmf>=0.8.0",
     "rns>=1.0.0",
     "schedule>=1.2.2",
 ]
+
+[tool.uv.workspace]
+members = [
+    "src/html2mu",
+]
+
+[tool.uv.sources]
+html2mu = { workspace = true }
