@@ -32,7 +32,7 @@ def web(r: Request):
 if __name__ == '__main__':
     dst, identity = create_rns_dest(RNS_CONFIGDIR, NODE_IDENTITY_PATH)
 
-    app.scheduler.every(1).minutes.do(
+    app.scheduler.every(10).minutes.do(
         lambda: logging.getLogger("announce").debug(
             "announce with data %s", ANNOUNCE_NAME
         )
