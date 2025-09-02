@@ -29,6 +29,10 @@ def web(r: Request):
     else:
         return 'no url provided'
 
+@app.request('/page/browser.mu')
+def browser(r: Request):
+    return render_template('browser.mu', dict())
+
 if __name__ == '__main__':
     dst, identity = create_rns_dest(RNS_CONFIGDIR, NODE_IDENTITY_PATH)
 
