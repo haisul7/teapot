@@ -20,7 +20,7 @@ Browse external internet without leaving reticulum!
 `B444`<30|url`https://news.ycombinator.com>`b `Ffff`B222`[ GO `:/page/web.mu`url]`b`f
 
 
-
+Work in progress, source code here:
 
 
 
