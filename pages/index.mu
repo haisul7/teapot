@@ -17,7 +17,7 @@
 
 `*418`*
 
-NEW: `Ffff`B222`[ browser` :/page/browser.mu]`b`f
+NEW: `Ffff`B222`[ browser ` :/page/browser.mu]`b`f
 
 `Ffff`B222`[ links `:/page/links.mu]`b`f
 
