@@ -1,6 +1,8 @@
 -∿
 `c
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀
+
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠞⠉⠑⢤⠀⠀⠀⠀⠀⢀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠴⠘⠁⠀⠀⠀⠀⠉⢦⣠⠔⠊⠁⠀⠀⠉⠢⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢀⣀⣀⡤⠤⠒⠊⠉⠀⠀⠀⠀⠀⡀⣀⣀⡠⣋⣀⣀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠒⠦⠤⠤⠤⠤⠤⠤⠄⠒⠐⠂⠒⠒⠒⠒
@@ -15,7 +17,11 @@
 
 Browser external internet without leaving reticulum!
 
-`B444`<url`https://news.ycombinator.com>`b `Ffff`B222`[ GO `:/page/web.mu`url]`b`f
+`B444`<30|url`https://news.ycombinator.com>`b `Ffff`B222`[ GO `:/page/web.mu`url]`b`f
+
+
+
+
 
 
 
@@ -25,3 +31,4 @@ Browser external internet without leaving reticulum!
 
 `c
 -∿
+<
