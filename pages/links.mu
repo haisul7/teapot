@@ -29,7 +29,7 @@ LXMF distribution groups: https://github.com/SebastianObi/LXMF-Tools
 
 Please contact me if you know more open-source Reticulum nodes. Let us learn from each other and build the ecosystem together.
 
-lxmf: ae623c940a36d9215da1893f6a3028bd
+`Ffff`B222`[lxmf@ae623c940a36d9215da1893f6a3028bd`lxmf@ae623c940a36d9215da1893f6a3028bd]
 
 <
 -∿
