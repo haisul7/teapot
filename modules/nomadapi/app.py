@@ -10,15 +10,15 @@ import schedule
 from jinja2 import FileSystemLoader, Environment
 
 from config import STORAGE_PATH
-from src.nomadapi.context import init_context
-from src.nomadapi.exceptions import DoubleHandlerRegistration
-from src.nomadapi.handlers.exception_handler import (
+from modules.nomadapi.context import init_context
+from modules.nomadapi.exceptions import DoubleHandlerRegistration
+from modules.nomadapi.handlers.exception_handler import (
     handle_exception_signature,
     base_handler,
     ExceptionHandler,
 )
-from src.nomadapi.handlers.handler import Handler, handle_func_signature
-from src.nomadapi.store import AbstractStore, JsonFileStore
+from modules.nomadapi.handlers.handler import Handler, handle_func_signature
+from modules.nomadapi.store import AbstractStore, JsonFileStore
 
 
 @dataclass

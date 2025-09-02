@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 from jinja2 import Environment, FileSystemLoader
 
-from src.nomadapi.store import AbstractStore
+from modules.nomadapi.store import AbstractStore
 
 
 @dataclass
