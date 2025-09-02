@@ -1,4 +1,7 @@
 import logging
+import time
+import pytz
+
 
 from config import NODE_IDENTITY_PATH, RNS_CONFIGDIR, ANNOUNCE_NAME
 from modules.html2mu.html2mu import convert_html_to_markdown, webpage_to_micron
@@ -24,9 +27,13 @@ def links(r: Request):
 def web(r: Request):
     if r.has_param('url'):
         id = r.get_remote_identity() if r.remote_identity else None
-        print(f"{id=} {r.get_param('url')=} requested")
+        formatted_time = time.strftime('%Y-%m-%d %H:%M:%S %Z', time.localtime())
 
-        return webpage_to_micron(r.get_param('url'))
+        t0 = time.time()
+        mu = webpage_to_micron(r.get_param('url'))
+
+        print(f"{formatted_time}: {id=} {r.get_param('url')=}, {time.time() - t0:.2f}s")
+        return mu
     else:
         return 'no url provided'
 
