@@ -1,10 +1,10 @@
 import logging
 
 from config import NODE_IDENTITY_PATH, RNS_CONFIGDIR, ANNOUNCE_NAME
-from src.html2mu.html2mu import convert_html_to_markdown, webpage_to_micron
-from src.nomadapi import NomadAPI
-from src.nomadapi.app import Config, create_rns_dest
-from src.nomadapi.handlers import Request, render_template
+from modules.html2mu.html2mu import convert_html_to_markdown, webpage_to_micron
+from modules.nomadapi import NomadAPI
+from modules.nomadapi.app import Config, create_rns_dest
+from modules.nomadapi.handlers import Request, render_template
 
 app = NomadAPI(
     Config(
