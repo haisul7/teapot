@@ -23,7 +23,7 @@ def links(r: Request):
 @app.request('/page/web.mu')
 def web(r: Request):
     if r.has_param('url'):
-        id = r.remote_identity
+        id = r.get_remote_identity() if r.remote_identity else None
         print(f"{id=} {r.get_param('url')=} requested")
 
         return webpage_to_micron(r.get_param('url'))
