@@ -1,1 +1,3 @@
-
+[submodule "modules/html2mu"]
+	path = modules/html2mu
+	url = https://github.com/haisul7/html2mu
