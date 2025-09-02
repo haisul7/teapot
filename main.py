@@ -1,7 +1,5 @@
 import logging
 import time
-import pytz
-
 
 from config import NODE_IDENTITY_PATH, RNS_CONFIGDIR, ANNOUNCE_NAME
 from modules.html2mu.html2mu import convert_html_to_markdown, webpage_to_micron
