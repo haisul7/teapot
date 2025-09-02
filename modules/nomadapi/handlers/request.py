@@ -2,8 +2,8 @@ import datetime
 from dataclasses import dataclass
 import typing as tp
 
-from src.nomadapi.context import ctx
-from src.nomadapi.exceptions import NotIdentified
+from modules.nomadapi.context import ctx
+from modules.nomadapi.exceptions import NotIdentified
 
 _UserData = tp.TypeVar("_UserData")
 

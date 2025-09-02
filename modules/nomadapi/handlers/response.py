@@ -2,7 +2,7 @@ import abc
 from dataclasses import dataclass
 import typing as tp
 
-from src.nomadapi.context import ctx
+from modules.nomadapi.context import ctx
 
 
 class AbstractResponse(abc.ABC):

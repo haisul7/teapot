@@ -1,7 +1,7 @@
 import logging
 import typing as tp
 
-from src.nomadapi.handlers.response import AbstractResponse
+from modules.nomadapi.handlers.response import AbstractResponse
 
 handle_exception_signature = tp.Callable[[Exception], AbstractResponse | str]
 

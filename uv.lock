@@ -156,7 +156,7 @@ wheels = [
 [[package]]
 name = "html2mu"
 version = "0.1.0"
-source = { editable = "src/html2mu" }
+source = { editable = "modules/html2mu" }
 dependencies = [
     { name = "html-to-markdown" },
     { name = "lxml" },
@@ -425,7 +425,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "html2mu", editable = "src/html2mu" },
+    { name = "html2mu", editable = "modules/html2mu" },
     { name = "jinja2", specifier = ">=3.1.6" },
     { name = "lxmf", specifier = ">=0.8.0" },
     { name = "rns", specifier = ">=1.0.0" },
