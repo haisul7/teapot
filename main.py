@@ -39,11 +39,16 @@ def log_usage(id, url, t0):
 def web(r: Request):
     if r.has_param('url'):
         id = r.get_remote_identity() if r.remote_identity else None
+        url = r.get_param('url')
+        if url.startswith('http://') or url.startswith('https://'):
+            pass
+        else:
+            url = 'https://' + url  # default to https
 
         t0 = time.time()
-        mu = webpage_to_micron(r.get_param('url'))
+        mu = webpage_to_micron(url)
 
-        log_usage(id, r.get_param('url'), t0)
+        log_usage(id, url, t0)
         return mu
     else:
         return 'no url provided'
