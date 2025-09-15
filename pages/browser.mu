@@ -19,7 +19,7 @@ Browse external internet without leaving reticulum!
 
 `B444`<30|url`https://news.ycombinator.com>`b
 `Ffff`B222`[ GO `:/page/web.mu`*]`b`f
-
+(buttons look better in MeshChat)
 
 Work in progress, source code here: https://github.com/haisul7/html2mu
 
